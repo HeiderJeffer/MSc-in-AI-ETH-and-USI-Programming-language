@@ -4,13 +4,13 @@
 
 # Master in Artificial Intelligence
 
-# Topic: Programming language
+# Topic: Programming language \[2014\]
 
 By Heider Jeffer
 
-Instructor: Prof. Mehdi Jazayeri
+Instructor: Mehdi Jazayeri
 
-14 December - 20 December 2014
+Assistant: Sasa Nesic
 
 # Summary
 
