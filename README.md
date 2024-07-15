@@ -6,7 +6,7 @@
 
 # Topic: Programming language \[2014\]
 
-By Heider Jeffer
+Speaker: Heider Jeffer
 
 Instructor: Mehdi Jazayeri
 
