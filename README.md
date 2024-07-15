@@ -144,3 +144,88 @@ operation. In some languages, the meaningless operation will be detected
 when the program is compiled (”static” type checking), and rejected by
 the compiler, while in others, it will be detected when the program is
 run (”dynamic” type checking), resulting in a runtime exception.
+
+
+#### Examples using Python
+To create a Python implementation related to the aspects of programming languages discussed in the research paper, let's break down the sections and provide corresponding code examples where applicable.
+
+### 1. Syntax
+
+**Definition**: A programming language's syntax describes the valid combinations of symbols that form a syntactically correct program.
+
+**Example**: Python syntax example
+
+```python
+# Python example of basic syntax
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
+```
+
+### 2. Static Semantics
+
+**Definition**: Static semantics defines restrictions on the structure of valid texts that are hard or impossible to express in standard syntactic formalisms.
+
+**Example**: Python example demonstrating variable declaration before use
+
+```python
+# Python example showing variable usage
+x = 10
+
+def double_value():
+    # Uncommenting the line below would cause a NameError
+    # print(y)
+    y = 2 * x
+    print(y)
+
+double_value()
+```
+
+### 3. Type System
+
+**Definition**: A type system classifies values and expressions into types, verifying and enforcing correctness in programs.
+
+**Example**: Python example of type annotations and basic type checking
+
+```python
+# Python example with type annotations
+def add_numbers(a: int, b: int) -> int:
+    return a + b
+
+result = add_numbers(3, 5)
+print(result)
+# Uncommenting the line below would cause a type error
+# add_numbers(3, "5")
+```
+
+### 4. Typed vs Untyped Languages
+
+**Definition**: Typed languages enforce type rules at compile-time or runtime, whereas untyped languages do not enforce such rules.
+
+**Example**: Python is a dynamically typed language where types are checked at runtime.
+
+```python
+# Python example showing dynamic typing
+def multiply(a, b):
+    return a * b
+
+result1 = multiply(3, 5)    # Works fine
+result2 = multiply(3, "5")  # No compile-time error, but may fail at runtime
+```
+
+### 5. Expressive Power
+
+**Definition**: Programming languages differ in the computations they can express; Turing complete languages can implement any algorithm.
+
+**Example**: Python example showcasing functional programming style
+
+```python
+# Python example using map and lambda for functional programming style
+numbers = [1, 2, 3, 4, 5]
+
+# Compute squares using map and lambda
+squared_numbers = list(map(lambda x: x**2, numbers))
+print(squared_numbers)
+```
+
