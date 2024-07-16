@@ -2,13 +2,11 @@
 <img src = "https://github-vistors-counter.onrender.com/github?username=https://github.com/HeiderJeffer/MSc-in-AI-ETH-and-USI-Programming-language/" alt = "Visitors-Counter"/>
 </body>
 
-# <span class="smallcaps">ETH and UNIVERSITÀ DELLA SVIZZERA ITALIANA</span>
+#### <span class="smallcaps">ETH and UNIVERSITÀ DELLA SVIZZERA ITALIANA</span>
 
-# FACULTY OF COMPUTER SCIENCE
+#### FACULTY OF COMPUTER SCIENCE-  Master in Artificial Intelligence
 
-# Master in Artificial Intelligence
-
-# Topic: Programming language \[2014\]
+#### Topic: Programming language \[2014\]
 
 Speaker: Heider Jeffer
 
