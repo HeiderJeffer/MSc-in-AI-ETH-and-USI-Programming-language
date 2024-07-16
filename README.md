@@ -1,3 +1,7 @@
+<body>
+<img src = "https://github-vistors-counter.onrender.com/github?username=https://github.com/HeiderJeffer/MSc-in-AI-ETH-and-USI-Programming-language/" alt = "Visitors-Counter"/>
+</body>
+
 # <span class="smallcaps">ETH and UNIVERSITÀ DELLA SVIZZERA ITALIANA</span>
 
 # FACULTY OF COMPUTER SCIENCE
